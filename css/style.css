@@ -129,21 +129,28 @@ header{
     .hero{
         flex-direction: column-reverse;
     }
-    .hero .hero-img{
-        width: 50%;
-        margin: auto;
+      
     }
-    .hero .img-hero img{
-        width: 100%;
-        margin: auto;
-        display: flex;
-    }
-    .hero-text{
-        width: 50%;
-    }
+
+.hero .img-hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
     .hero-text h3{
-        font-size: 20px;
-        width: 70%;
+        font-size: 30px;
+        width: 100%;
     }
     .hero-text p{
         font-size: 16px;
@@ -155,9 +162,15 @@ header{
         padding: 10px 100px;
         margin: auto;
     }
+    .hero-text button a{
+        font-size: 10px;
+        font-weight: 100;
+        
+    }
   
     
-}
+
+
 
 
 
@@ -554,6 +567,7 @@ ul{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    
     margin: auto;
     text-align: center;
 }
