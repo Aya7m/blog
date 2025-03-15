@@ -130,13 +130,13 @@ header{
         flex-direction: column-reverse;
     }
     .hero .hero-img{
-        width: 30%;
+        width: 50%;
     }
     .hero .img-hero img{
         width: 100%;
     }
     .hero-text{
-        width: 70%;
+        width: 50%;
     }
     .hero-text h3{
         font-size: 20px;
